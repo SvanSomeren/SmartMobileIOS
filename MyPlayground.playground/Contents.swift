@@ -2,12 +2,20 @@
 
 import UIKit
 
+enum Profiel
+{
+    case Software
+    case Media
+    case Technology
+    case Business
+}
+
 var room = classRoom()
 var room2 = classRoom()
 
-var student1 = Student(name: "Simon", age: 13)
+var student1 = Student(name: "Simon", age: 13, route: Profiel.Software)
 room.addStudent(student: student1)
-var student2 = Student(name: "Tom", age: 12)
+var student2 = Student(name: "Tom", age: 12, route: Profiel.Media)
 room.addStudent(student: student2)
 print("Students in room1")
 room.printStudents()
@@ -23,10 +31,12 @@ room2.printStudents()
 class Student {
     var name:String
     var age:Int
+    var route:Profiel
     
-    init(name: String, age: Int) {
+    init(name: String, age: Int, route: Profiel) {
         self.name = name
         self.age = age
+        self.route = route
     }
     
     func getName() -> String
@@ -72,3 +82,4 @@ class classRoom {
         students.removeAll()
     }
 }
+
