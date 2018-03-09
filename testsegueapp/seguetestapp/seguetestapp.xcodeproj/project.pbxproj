@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		833B83DE20527F2900BC6AD1 /* segueStringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B83DD20527F2900BC6AD1 /* segueStringController.swift */; };
-		833B83E02052802900BC6AD1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B83DF2052802900BC6AD1 /* FirstViewController.swift */; };
-		83CA96722052761200F9CB45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CA96712052761200F9CB45 /* AppDelegate.swift */; };
-		83CA96742052761200F9CB45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CA96732052761200F9CB45 /* ViewController.swift */; };
-		83CA96772052761200F9CB45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CA96752052761200F9CB45 /* Main.storyboard */; };
-		83CA96792052761200F9CB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CA96782052761200F9CB45 /* Assets.xcassets */; };
-		83CA967C2052761200F9CB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CA967A2052761200F9CB45 /* LaunchScreen.storyboard */; };
+		833B83EE2052809C00BC6AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B83ED2052809C00BC6AD1 /* AppDelegate.swift */; };
+		833B83F02052809C00BC6AD1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B83EF2052809C00BC6AD1 /* FirstViewController.swift */; };
+		833B83F22052809C00BC6AD1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B83F12052809C00BC6AD1 /* SecondViewController.swift */; };
+		833B83F52052809C00BC6AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833B83F32052809C00BC6AD1 /* Main.storyboard */; };
+		833B83F72052809C00BC6AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833B83F62052809C00BC6AD1 /* Assets.xcassets */; };
+		833B84042052850500BC6AD1 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B84032052850500BC6AD1 /* DataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		833B83DD20527F2900BC6AD1 /* segueStringController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segueStringController.swift; sourceTree = "<group>"; };
-		833B83DF2052802900BC6AD1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		83CA966E2052761200F9CB45 /* viewControllerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewControllerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83CA96712052761200F9CB45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83CA96732052761200F9CB45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83CA96762052761200F9CB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83CA96782052761200F9CB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83CA967B2052761200F9CB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83CA967D2052761200F9CB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833B83EA2052809C00BC6AD1 /* seguetestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seguetestapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833B83ED2052809C00BC6AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		833B83EF2052809C00BC6AD1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		833B83F12052809C00BC6AD1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		833B83F42052809C00BC6AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		833B83F62052809C00BC6AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833B83FB2052809C00BC6AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833B84032052850500BC6AD1 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83CA966B2052761200F9CB45 /* Frameworks */ = {
+		833B83E72052809C00BC6AD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,74 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83CA96652052761200F9CB45 = {
+		833B83E12052809C00BC6AD1 = {
 			isa = PBXGroup;
 			children = (
-				83CA96702052761200F9CB45 /* viewControllerApp */,
-				83CA966F2052761200F9CB45 /* Products */,
+				833B83EC2052809C00BC6AD1 /* seguetestapp */,
+				833B83EB2052809C00BC6AD1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83CA966F2052761200F9CB45 /* Products */ = {
+		833B83EB2052809C00BC6AD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83CA966E2052761200F9CB45 /* viewControllerApp.app */,
+				833B83EA2052809C00BC6AD1 /* seguetestapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83CA96702052761200F9CB45 /* viewControllerApp */ = {
+		833B83EC2052809C00BC6AD1 /* seguetestapp */ = {
 			isa = PBXGroup;
 			children = (
-				83CA96712052761200F9CB45 /* AppDelegate.swift */,
-				83CA96732052761200F9CB45 /* ViewController.swift */,
-				833B83DD20527F2900BC6AD1 /* segueStringController.swift */,
-				83CA96752052761200F9CB45 /* Main.storyboard */,
-				83CA96782052761200F9CB45 /* Assets.xcassets */,
-				83CA967A2052761200F9CB45 /* LaunchScreen.storyboard */,
-				83CA967D2052761200F9CB45 /* Info.plist */,
-				833B83DF2052802900BC6AD1 /* FirstViewController.swift */,
+				833B83ED2052809C00BC6AD1 /* AppDelegate.swift */,
+				833B83EF2052809C00BC6AD1 /* FirstViewController.swift */,
+				833B83F12052809C00BC6AD1 /* SecondViewController.swift */,
+				833B83F32052809C00BC6AD1 /* Main.storyboard */,
+				833B83F62052809C00BC6AD1 /* Assets.xcassets */,
+				833B83FB2052809C00BC6AD1 /* Info.plist */,
+				833B84032052850500BC6AD1 /* DataViewController.swift */,
 			);
-			path = viewControllerApp;
+			path = seguetestapp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83CA966D2052761200F9CB45 /* viewControllerApp */ = {
+		833B83E92052809C00BC6AD1 /* seguetestapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83CA96802052761200F9CB45 /* Build configuration list for PBXNativeTarget "viewControllerApp" */;
+			buildConfigurationList = 833B83FE2052809C00BC6AD1 /* Build configuration list for PBXNativeTarget "seguetestapp" */;
 			buildPhases = (
-				83CA966A2052761200F9CB45 /* Sources */,
-				83CA966B2052761200F9CB45 /* Frameworks */,
-				83CA966C2052761200F9CB45 /* Resources */,
+				833B83E62052809C00BC6AD1 /* Sources */,
+				833B83E72052809C00BC6AD1 /* Frameworks */,
+				833B83E82052809C00BC6AD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = viewControllerApp;
-			productName = viewControllerApp;
-			productReference = 83CA966E2052761200F9CB45 /* viewControllerApp.app */;
+			name = seguetestapp;
+			productName = seguetestapp;
+			productReference = 833B83EA2052809C00BC6AD1 /* seguetestapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83CA96662052761200F9CB45 /* Project object */ = {
+		833B83E22052809C00BC6AD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = issd;
 				TargetAttributes = {
-					83CA966D2052761200F9CB45 = {
+					833B83E92052809C00BC6AD1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 83CA96692052761200F9CB45 /* Build configuration list for PBXProject "viewControllerApp" */;
+			buildConfigurationList = 833B83E52052809C00BC6AD1 /* Build configuration list for PBXProject "seguetestapp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,64 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 83CA96652052761200F9CB45;
-			productRefGroup = 83CA966F2052761200F9CB45 /* Products */;
+			mainGroup = 833B83E12052809C00BC6AD1;
+			productRefGroup = 833B83EB2052809C00BC6AD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83CA966D2052761200F9CB45 /* viewControllerApp */,
+				833B83E92052809C00BC6AD1 /* seguetestapp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83CA966C2052761200F9CB45 /* Resources */ = {
+		833B83E82052809C00BC6AD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CA967C2052761200F9CB45 /* LaunchScreen.storyboard in Resources */,
-				83CA96792052761200F9CB45 /* Assets.xcassets in Resources */,
-				83CA96772052761200F9CB45 /* Main.storyboard in Resources */,
+				833B83F72052809C00BC6AD1 /* Assets.xcassets in Resources */,
+				833B83F52052809C00BC6AD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83CA966A2052761200F9CB45 /* Sources */ = {
+		833B83E62052809C00BC6AD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833B83DE20527F2900BC6AD1 /* segueStringController.swift in Sources */,
-				83CA96742052761200F9CB45 /* ViewController.swift in Sources */,
-				83CA96722052761200F9CB45 /* AppDelegate.swift in Sources */,
-				833B83E02052802900BC6AD1 /* FirstViewController.swift in Sources */,
+				833B84042052850500BC6AD1 /* DataViewController.swift in Sources */,
+				833B83F22052809C00BC6AD1 /* SecondViewController.swift in Sources */,
+				833B83EE2052809C00BC6AD1 /* AppDelegate.swift in Sources */,
+				833B83F02052809C00BC6AD1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83CA96752052761200F9CB45 /* Main.storyboard */ = {
+		833B83F32052809C00BC6AD1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83CA96762052761200F9CB45 /* Base */,
+				833B83F42052809C00BC6AD1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		83CA967A2052761200F9CB45 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83CA967B2052761200F9CB45 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83CA967E2052761200F9CB45 /* Debug */ = {
+		833B83FC2052809C00BC6AD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		83CA967F2052761200F9CB45 /* Release */ = {
+		833B83FD2052809C00BC6AD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,28 +266,28 @@
 			};
 			name = Release;
 		};
-		83CA96812052761200F9CB45 /* Debug */ = {
+		833B83FF2052809C00BC6AD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = viewControllerApp/Info.plist;
+				INFOPLIST_FILE = seguetestapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = issd.viewControllerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = issd.seguetestapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		83CA96822052761200F9CB45 /* Release */ = {
+		833B84002052809C00BC6AD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = viewControllerApp/Info.plist;
+				INFOPLIST_FILE = seguetestapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = issd.viewControllerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = issd.seguetestapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,25 +297,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83CA96692052761200F9CB45 /* Build configuration list for PBXProject "viewControllerApp" */ = {
+		833B83E52052809C00BC6AD1 /* Build configuration list for PBXProject "seguetestapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CA967E2052761200F9CB45 /* Debug */,
-				83CA967F2052761200F9CB45 /* Release */,
+				833B83FC2052809C00BC6AD1 /* Debug */,
+				833B83FD2052809C00BC6AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CA96802052761200F9CB45 /* Build configuration list for PBXNativeTarget "viewControllerApp" */ = {
+		833B83FE2052809C00BC6AD1 /* Build configuration list for PBXNativeTarget "seguetestapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CA96812052761200F9CB45 /* Debug */,
-				83CA96822052761200F9CB45 /* Release */,
+				833B83FF2052809C00BC6AD1 /* Debug */,
+				833B84002052809C00BC6AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83CA96662052761200F9CB45 /* Project object */;
+	rootObject = 833B83E22052809C00BC6AD1 /* Project object */;
 }

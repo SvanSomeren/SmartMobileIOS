@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  viewControllerApp
+//  SecondViewController.swift
+//  seguetestapp
 //
 //  Created by issd on 09/03/2018.
 //  Copyright © 2018 issd. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 }
 
